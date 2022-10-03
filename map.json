@@ -49,9 +49,9 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"My-meeting-room2",
+                 "name":"jitsiRoom",
                  "type":"string",
-                 "value":"jitsiMeeting"
+                 "value":"my-meeting-room2"
                 }],
          "type":"tilelayer",
          "visible":true,
