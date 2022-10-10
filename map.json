@@ -49,9 +49,19 @@
          "opacity":1,
          "properties":[
                 {
+                 "name":"openTab",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/groupevsc-my.sharepoint.com\/:p:\/g\/personal\/nicolas_fueyo_connect-tech_sncf\/Ef_fxT8pHHRJq1Yck5STeSMBRdUGDwj7WPiSIh28qxamIA"
+                }, 
+                {
+                 "name":"openWebsiteWidth",
+                 "type":"float",
+                 "value":50
                 }],
          "type":"tilelayer",
          "visible":true,
