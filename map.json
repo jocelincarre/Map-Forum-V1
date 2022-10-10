@@ -240,7 +240,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/tools-unite.com\/tools\/random-picker-wheel"
+                         "value":"https:\/\/wheelofnames.com\/"
                         }],
                  "type":"tilelayer",
                  "visible":true,
