@@ -486,14 +486,14 @@
                     0, 10, 10, 10, 10, 10, 10, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
                  "height":40,
-                 "id":77,
-                 "name":"My meeting room 2",
+                 "id":79,
+                 "name":"my meeting room ",
                  "opacity":1,
                  "properties":[
                         {
-                         "name":"jitsiRoom ",
+                         "name":"jitsiRoom",
                          "type":"string",
-                         "value":"My-meeting-room 2"
+                         "value":"my-meeting-room 2"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -1493,7 +1493,7 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":79,
+ "nextlayerid":80,
  "nextobjectid":36,
  "orientation":"orthogonal",
  "properties":[
