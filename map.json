@@ -1139,14 +1139,14 @@
                     {
                      "bold":true,
                      "fontfamily":"MS Shell Dlg 2",
-                     "pixelsize":17,
+                     "pixelsize":15,
                      "text":"ATLASSIAN",
                      "wrap":true
                     },
                  "visible":true,
                  "width":121,
-                 "x":927,
-                 "y":1010.5
+                 "x":934,
+                 "y":1011.5
                 }, 
                 {
                  "class":"",
