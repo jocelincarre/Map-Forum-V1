@@ -122,11 +122,6 @@
                          "name":"jitsiRoom",
                          "type":"string",
                          "value":"My-meeting-room 5"
-                        }, 
-                        {
-                         "name":"jitsiTrigger",
-                         "type":"string",
-                         "value":"onaction"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -194,11 +189,6 @@
                          "name":"jitsiRoom",
                          "type":"string",
                          "value":"My-meeting-room 4"
-                        }, 
-                        {
-                         "name":"jitsiTrigger",
-                         "type":"string",
-                         "value":"onaction"
                         }],
                  "type":"tilelayer",
                  "visible":true,
