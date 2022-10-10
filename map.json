@@ -426,7 +426,7 @@
                         {
                          "name":"jitsiRoom",
                          "type":"string",
-                         "value":"my-meeting-room 3"
+                         "value":"My-meeting-room 3"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -607,12 +607,7 @@
                         {
                          "name":"jitsiRoom",
                          "type":"string",
-                         "value":"my-meeting-room2"
-                        }, 
-                        {
-                         "name":"jitsiTrigger",
-                         "type":"string",
-                         "value":"onaction"
+                         "value":"My-meeting-room 2"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -676,7 +671,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"my-meeting-room1"
+                 "value":"my-meeting-room 1"
                 }],
          "type":"tilelayer",
          "visible":true,
