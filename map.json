@@ -434,9 +434,9 @@
                  "opacity":1,
                  "properties":[
                         {
-                         "name":"JitsiRoom",
+                         "name":"jitsiRoom",
                          "type":"string",
-                         "value":"My-meeting-room 3"
+                         "value":"my-meeting-room 3"
                         }],
                  "type":"tilelayer",
                  "visible":true,
