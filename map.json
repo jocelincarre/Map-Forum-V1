@@ -392,7 +392,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/www.crazygames.fr\/jeu\/uno-online"
+                         "value":"https:\/\/www.solitaireparadise.com\/fr\/jeu\/uno-en-ligne.html"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -621,13 +621,13 @@
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
                  "height":58,
                  "id":85,
-                 "name":"Snake",
+                 "name":"\u00e9chec",
                  "opacity":1,
                  "properties":[
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/www.google.com\/search?q=snake+google&rlz=1C1GCEA_enFR1022FR1022&sxsrf=ALiCzsZJ8Qc34qf4K3S1Bs14MlChdF7JOg%3A1666344900593&ei=xGdSY6XqI8ajlwTPrqy4Cg&ved=0ahUKEwil3P2-gvH6AhXG0YUKHU8XC6cQ4dUDCA8&uact=5&oq=snake+google&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIICC4QgAQQsQMyBQgAEIAEMgsIABCABBCxAxCDATIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6CggAEEcQ1gQQsAM6BwgAELADEEM6DQgAEOQCENYEELADGAE6DwguENQCEMgDELADEEMYAjoMCC4QyAMQsAMQQxgCOgQIABBDOgsILhCABBCxAxCDAToICC4QgAQQ1AI6BQguEIAESgQITRgBSgQIQRgASgQIRhgBUL4FWO8SYPYTaAFwAHgAgAFJiAGDA5IBATeYAQCgAQHIARPAAQHaAQYIARABGAnaAQYIAhABGAg&sclient=gws-wiz-serp"
+                         "value":"https:\/\/www.chess.com\/fr\/play\/computer"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -2637,7 +2637,7 @@
                  "rotation":0,
                  "text":
                     {
-                     "text":"Snake",
+                     "text":"\u00e9chec",
                      "wrap":true
                     },
                  "visible":true,
