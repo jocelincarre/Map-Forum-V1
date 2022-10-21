@@ -552,7 +552,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/www.chess.com\/fr\/play\/computer"
+                         "value":"https:\/\/garticphone.com\/fr?c=02d0956c58"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -2545,13 +2545,15 @@
                  "rotation":0,
                  "text":
                     {
-                     "text":"\u00e9chec",
+                     "fontfamily":"MS Shell Dlg 2",
+                     "pixelsize":13,
+                     "text":"Gartic Phone",
                      "wrap":true
                     },
                  "visible":true,
-                 "width":46,
-                 "x":787,
-                 "y":137.5
+                 "width":124,
+                 "x":773.5,
+                 "y":139
                 }, 
                 {
                  "class":"",
