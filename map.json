@@ -1287,7 +1287,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/spinthewheel.app\/editor"
+                         "value":""
                         }],
                  "type":"tilelayer",
                  "visible":true,
