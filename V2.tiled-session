@@ -1,0 +1,58 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "map.json",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "Tous les Fichiers (*)",
+    "fileStates": {
+        "map.json": {
+            "scale": 0.75,
+            "selectedLayer": 20,
+            "viewCenter": {
+                "x": 783.3333333333333,
+                "y": 101.33333333333337
+            }
+        },
+        "map.json#WA_Decoration": {
+            "scaleInDock": 1
+        },
+        "map.json#WA_Exterior": {
+            "scaleInDock": 1
+        },
+        "map.json#WA_Logo_Long": {
+            "scaleInDock": 1
+        },
+        "map.json#WA_Miscellaneous": {
+            "scaleInDock": 1
+        },
+        "map.json#WA_Other_Furniture": {
+            "scaleInDock": 1
+        },
+        "map.json#WA_Room_Builder": {
+            "scaleInDock": 1
+        },
+        "map.json#WA_Seats": {
+            "scaleInDock": 1
+        },
+        "map.json#WA_Special_Zones": {
+            "scaleInDock": 1
+        },
+        "map.json#WA_Tables": {
+            "scaleInDock": 1
+        },
+        "map.json#WA_User_Interface": {
+            "scaleInDock": 1
+        }
+    },
+    "map.lastUsedFormat": "json",
+    "openFiles": [
+        "map.json"
+    ],
+    "project": "V2.tiled-project",
+    "recentFiles": [
+        "map.json"
+    ]
+}
