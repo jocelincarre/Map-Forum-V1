@@ -5,15 +5,23 @@
     },
     "activeFile": "map.json",
     "expandedProjectPaths": [
+        "."
     ],
     "file.lastUsedOpenFilter": "Tous les Fichiers (*)",
     "fileStates": {
         "map.json": {
-            "scale": 0.75,
-            "selectedLayer": 20,
+            "expandedGroupLayers": [
+                69,
+                72,
+                73,
+                62,
+                63
+            ],
+            "scale": 1.5,
+            "selectedLayer": 42,
             "viewCenter": {
-                "x": 783.3333333333333,
-                "y": 101.33333333333337
+                "x": 928.6666666666666,
+                "y": 720.6666666666666
             }
         },
         "map.json#WA_Decoration": {
@@ -38,7 +46,7 @@
             "scaleInDock": 1
         },
         "map.json#WA_Special_Zones": {
-            "scaleInDock": 1
+            "scaleInDock": 3
         },
         "map.json#WA_Tables": {
             "scaleInDock": 1
