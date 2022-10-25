@@ -10,7 +10,24 @@ let currentPopup: any = undefined;
 WA.onInit().then(() => {
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags)
+	
+	
 WA.ui.openPopup(POPUP: string, Veuillez Revenir à : string, buttons: ButtonDescriptor[]): Popup;
+
+WA.room.onEnterLayer("POPUP").subscribe(() => {
+    helloWorldPopup = WA.ui.openPopup("popupRectangle", 'Hello world!', [{
+        label: "Close",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+        }
+    }]);
+});
+
+
+
+
     WA.room.onEnterLayer('clockZone').subscribe(() => {
         const today = new Date();
         const time = today.getHours() + ":" + today.getMinutes();
