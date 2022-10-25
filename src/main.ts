@@ -9,7 +9,7 @@ let currentPopup: any = undefined;
 // Waiting for the API to be ready
 WA.onInit().then(() => {
     console.log('Scripting API ready');
-    console.log('Player tags: ',WA.player.tags)
+    console.log('Player tags: ',WA.player.tags);
 
 WA.ui.openPopup(targetObject: string, message: string, buttons: ButtonDescriptor[]): Popup ;
 
@@ -22,7 +22,7 @@ class Popup {
 let helloWorldPopup;
 
 // Open the popup when we enter a given zone
-WA.room.onEnterLayer("myZone").subscribe(() => {
+WA.room.onEnterLayer("MAZONE").subscribe(() => {
     helloWorldPopup = WA.ui.openPopup("popupRectangle", 'Hello world!', [{
         label: "Close",
         className: "primary",
