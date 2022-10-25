@@ -10,7 +10,15 @@ let currentPopup: any = undefined;
 WA.onInit().then(() => {
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags)
-	
+
+WA.ui.openPopup(targetObject: string, message: string, buttons: ButtonDescriptor[]): Popup
+
+class Popup {
+    /**
+     * Closes the popup
+     */
+    close() {};
+}	
 let helloWorldPopup;
 
 // Open the popup when we enter a given zone

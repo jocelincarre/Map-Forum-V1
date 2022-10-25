@@ -2199,14 +2199,14 @@
          "objects":[
                 {
                  "class":"",
-                 "height":168,
+                 "height":151,
                  "id":53,
-                 "name":"POP UP",
+                 "name":"MAZONE",
                  "rotation":0,
                  "visible":true,
-                 "width":96,
+                 "width":99,
                  "x":894,
-                 "y":596
+                 "y":613
                 }, 
                 {
                  "class":"",
