@@ -11,17 +11,17 @@
     "fileStates": {
         "map.json": {
             "expandedGroupLayers": [
-                69,
-                72,
-                73,
                 62,
-                63
+                72,
+                63,
+                73,
+                69
             ],
-            "scale": 1.5,
-            "selectedLayer": 42,
+            "scale": 0.5,
+            "selectedLayer": 25,
             "viewCenter": {
-                "x": 928.6666666666666,
-                "y": 720.6666666666666
+                "x": 944,
+                "y": 1482
             }
         },
         "map.json#WA_Decoration": {

@@ -1309,7 +1309,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/spinthewheel.app\/editor"
+                         "value":"https:\/\/spinthewheel.app\/MfLiJzQato"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -2207,6 +2207,28 @@
                  "width":96,
                  "x":894,
                  "y":596
+                }, 
+                {
+                 "class":"",
+                 "height":14,
+                 "id":54,
+                 "name":"",
+                 "rotation":0,
+                 "visible":true,
+                 "width":4,
+                 "x":546,
+                 "y":50
+                }, 
+                {
+                 "class":"",
+                 "height":2,
+                 "id":55,
+                 "name":"",
+                 "rotation":0,
+                 "visible":true,
+                 "width":2,
+                 "x":1002,
+                 "y":4
                 }],
          "opacity":1,
          "properties":[
@@ -2857,7 +2879,7 @@
          "y":0
         }],
  "nextlayerid":101,
- "nextobjectid":54,
+ "nextobjectid":56,
  "orientation":"orthogonal",
  "properties":[
         {
