@@ -4,16 +4,28 @@ import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 
 console.log('Script started successfully');
 
+class Popup {
+    /**
+     * Closes the popup
+     */
+    close() {};
+}
+
+
+
 // Waiting for the API to be ready
 WA.onInit().then(() => {
-    console.log('Scripting API ready');
-    console.log('Player tags: ',WA.player.tags);
-
+ let popup : Popup|null = null;
 
 
 // Open the popup when we enter a given zone
-WA.room.onEnterLayer("MAZONE").subscribe(() => {
-WA.ui.openPopup('MAZONE' , 'Ouvert' , []);
+WA.room.onEnterLayer("openPopUpRoom").subscribe(() => {
+ popup = WA.ui.openPopup('popupRoomAccess' , 'Revenez plus tard' , []);
+    });
+
+    WA.room.onLeaveLayer("openPopUpRoom").subscribe(() => {
+        if(!popup)return;
+        popup.close();
 });
 
 
