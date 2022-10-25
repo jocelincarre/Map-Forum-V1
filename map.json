@@ -2198,7 +2198,7 @@
          "name":"POPUP",
          "objects":[
                 {
-                 "class":"",
+                 "class":"zone",
                  "height":151,
                  "id":53,
                  "name":"MAZONE",
@@ -2237,6 +2237,28 @@
                  "type":"string",
                  "value":"WA.ui.openPopup(POPUP: string, Veuillez Revenir \u00e0 16h: string, buttons: ButtonDescriptor[]): Popup\n"
                 }],
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":101,
+         "name":"",
+         "objects":[
+                {
+                 "class":"popup",
+                 "height":146.75,
+                 "id":56,
+                 "name":"MAZONE",
+                 "rotation":0,
+                 "visible":true,
+                 "width":81.75,
+                 "x":908,
+                 "y":620.25
+                }],
+         "opacity":1,
          "type":"objectgroup",
          "visible":true,
          "x":0,
@@ -2878,8 +2900,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":101,
- "nextobjectid":56,
+ "nextlayerid":102,
+ "nextobjectid":57,
  "orientation":"orthogonal",
  "properties":[
         {
