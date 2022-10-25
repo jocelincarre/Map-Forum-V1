@@ -11,7 +11,7 @@ WA.onInit().then(() => {
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags);
 
-WA.ui.openPopup(targetObject: string, message: string, buttons: ButtonDescriptor[]): Popup ,
+WA.ui.openPopup(targetObject: MAZONE, message: C BON, buttons: ButtonDescriptor[]): Popup ,
 
 class Popup {
     /**
@@ -22,7 +22,7 @@ class Popup {
 let helloWorldPopup;
 
 // Open the popup when we enter a given zone
-WA.room.onEnterLayer("MAZONE").subscribe(() => {
+WA.room.onEnterLayer("myZone").subscribe(() => {
     helloWorldPopup = WA.ui.openPopup("popupRectangle", 'Hello world!', [{
         label: "Close",
         className: "primary",
