@@ -13,7 +13,7 @@ WA.onInit().then(() => {
 
 // Open the popup when we enter a given zone
 WA.room.onEnterLayer("MAZONE").subscribe(() => {
-WA.ui.openPopup('MAZONE' , 'La salle de jeux est fermée pour le moment... Revenez plus tard !' , []);
+WA.ui.openPopup('MAZONE' , 'Ouvert' , []);
 });
 
 
