@@ -15,7 +15,7 @@ WA.onInit().then(() => {
     // Open the popup when we enter a given zone
     let popup : Popup|null = null;
     WA.room.onEnterLayer("openPopUpRoom").subscribe(() => {
-        popup = WA.ui.openPopup('popupRoomAccess' , 'Revenez plus tard' , []);
+        popup = WA.ui.openPopup('popupRoomAccess' , 'La salle de jeux est fermée pour le moment... revenez plus tard !' , []);
     });
 
     WA.room.onLeaveLayer("openPopUpRoom").subscribe(() => {
