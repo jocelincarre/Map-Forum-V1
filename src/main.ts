@@ -1,22 +1,14 @@
 /// <reference types="@workadventure/iframe-api-typings" />
-
 import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 
 console.log('Script started successfully');
 
 // Waiting for the API to be ready
 WA.onInit().then(() => {
-    console.log('Scripting API ready');
-    console.log('Player tags: ',WA.player.tags);
-
-
-
-// Open the popup when we enter a given zone
-WA.room.onEnterLayer("MAZONE").subscribe(() => {
-WA.ui.openPopup('MAZONE' , 'Revenez plus tard' , []);
-});
-
-
+    // Open the popup when we enter a given zone
+    WA.room.onEnterLayer("openPopUpRoom").subscribe(() => {
+        WA.ui.openPopup('popupRoomAccess' , 'Revenez plus tard' , []);
+    });
 
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
@@ -24,6 +16,5 @@ WA.ui.openPopup('MAZONE' , 'Revenez plus tard' , []);
     }).catch(e => console.error(e));
 
 }).catch(e => console.error(e));
-
 
 export {};
