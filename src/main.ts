@@ -12,7 +12,7 @@ WA.onInit().then(() => {
     console.log('Player tags: ',WA.player.tags)
 	
 	
-WA.ui.openPopup(POPUP: string, Veuillez Revenir à : string, buttons: ButtonDescriptor[]): Popup;
+WA.ui.openPopup(POPUP: string, buttons: ButtonDescriptor[]): Popup;
 
 let helloWorldPopup;
 WA.room.onEnterLayer("POPUP").subscribe(() => {
