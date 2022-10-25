@@ -14,6 +14,7 @@ WA.onInit().then(() => {
 	
 WA.ui.openPopup(POPUP: string, Veuillez Revenir à : string, buttons: ButtonDescriptor[]): Popup;
 
+let helloWorldPopup;
 WA.room.onEnterLayer("POPUP").subscribe(() => {
     helloWorldPopup = WA.ui.openPopup("popupRectangle", 'Hello world!', [{
         label: "Close",
