@@ -11,7 +11,7 @@ WA.onInit().then(() => {
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags);
 
-WA.ui.openPopup(targetObject: string, message: string, buttons: ButtonDescriptor[]): Popup ;
+WA.ui.openPopup(targetObject: string, message: string, buttons: ButtonDescriptor[]): Popup ,
 
 class Popup {
     /**
