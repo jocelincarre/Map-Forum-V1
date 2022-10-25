@@ -27,11 +27,5 @@ WA.ui.openPopup('MAZONE' , 'Revenez plus tard' , []);
 
 }).catch(e => console.error(e));
 
-function closePopUp(){
-    if (currentPopup !== undefined) {
-        currentPopup.close();
-        currentPopup = undefined;
-    }
-}
 
 export {};
