@@ -10,7 +10,7 @@ let currentPopup: any = undefined;
 WA.onInit().then(() => {
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags);
-WA.ui.openPopup('MAZONE' , 'Revenez plus tard');
+WA.ui.openPopup('MAZONE' , 'Revenez plus tard', []);
 
 
 
