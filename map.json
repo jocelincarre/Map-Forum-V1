@@ -2632,8 +2632,8 @@
                     },
                  "visible":true,
                  "width":118,
-                 "x":99,
-                 "y":931.5
+                 "x":97.6666666666667,
+                 "y":934.166666666667
                 }, 
                 {
                  "class":"",
@@ -2646,12 +2646,12 @@
                      "bold":true,
                      "fontfamily":"MS Shell Dlg 2",
                      "pixelsize":17,
-                     "text":"IT4IT",
+                     "text":"IT4TEST",
                      "wrap":true
                     },
                  "visible":true,
                  "width":78,
-                 "x":248.5,
+                 "x":235.166666666667,
                  "y":1588
                 }, 
                 {
@@ -2703,32 +2703,30 @@
                      "bold":true,
                      "fontfamily":"MS Shell Dlg 2",
                      "pixelsize":21,
-                     "text":"?",
+                     "text":"SNCF",
                      "wrap":true
                     },
                  "visible":true,
                  "width":108,
-                 "x":1642.36363636364,
-                 "y":1009.34848484848
+                 "x":1622.36363636364,
+                 "y":1008.01515151515
                 }, 
                 {
                  "class":"",
-                 "height":28,
+                 "height":77.3333333333334,
                  "id":23,
                  "name":"",
                  "rotation":0,
                  "text":
                     {
-                     "bold":true,
                      "fontfamily":"MS Shell Dlg 2",
-                     "pixelsize":21,
-                     "text":"?",
+                     "text":"IT4 Observability ",
                      "wrap":true
                     },
                  "visible":true,
-                 "width":108,
-                 "x":1641.09090909091,
-                 "y":624.80303030303
+                 "width":100,
+                 "x":1602.42424242424,
+                 "y":618.136363636363
                 }, 
                 {
                  "class":"",
