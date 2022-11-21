@@ -3433,8 +3433,8 @@
                     },
                  "visible":true,
                  "width":70,
-                 "x":462,
-                 "y":51.5
+                 "x":460.181818181818,
+                 "y":52.5909090909091
                 }, 
                 {
                  "class":"",
@@ -3460,7 +3460,7 @@
                  "rotation":0,
                  "text":
                     {
-                     "text":"BOMB PARY",
+                     "text":"BOMB PARTY",
                      "wrap":true
                     },
                  "visible":true,
